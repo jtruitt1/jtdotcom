@@ -11,7 +11,7 @@ body {
 	position: relative;
 	z-index: 1;
 
-	&:after {
+	&:before {
 		z-index: -1;
 		background: white;
 		content: "";
@@ -282,7 +282,7 @@ DARK THEME STYLING
 		color: white;
 	}
 
-	.content:after,
+	.content:before,
 	.post .featuredImage:before {
 		background: black;
 	}
