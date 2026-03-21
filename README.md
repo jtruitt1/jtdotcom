@@ -15,7 +15,6 @@ If you really enjoy Long Haul and want to give me credit somewhere on the intern
 -   SVG Social Icons
 -   Responsive Nav Menu
 -   XML Feed for RSS Readers
--   Contact Form via Formspree
 -   5 Post Loop with excerpt on Home Page
 -   Previous / Next Post Navigation
 -   Estimated Reading Time for posts
