@@ -4,6 +4,8 @@ GLOBAL STYLES
 
 body {
 	font-size: 125%;
+	color: light-dark($black, $white);
+	background-color: light-dark($white, $black);
 }
 
 .content {
@@ -13,7 +15,7 @@ body {
 
 	&:before {
 		z-index: -1;
-		background: white;
+		background: light-dark($white, $black);
 		content: "";
 		display: block;
 		width: 100%;
@@ -93,13 +95,13 @@ HEADER STYLING
 				border: none;
 
 				a {
-					color: white;
+					color: $white;
 					font-size: .9em;
 					text-decoration: none;
 					padding: 0 .25em;
 
 					&:hover {
-						color: darken(white, 20%);
+						color: darken($white, 20%);
 					}
 				}
 
@@ -195,7 +197,7 @@ POST STYLING
 		margin-top: 2rem;
 
 		&:before {
-			background: white;
+			background: light-dark($white, $black);
 			content: "";
 			display: block;
 			width: 100%;
@@ -269,21 +271,5 @@ CONTACT PAGE STYLING
 		width: 48%;
 		float: right;
 		margin-right: 0;
-	}
-}
-
-/***************
-DARK THEME STYLING
-***************/
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: black;
-		color: white;
-	}
-
-	.content:before,
-	.post .featuredImage:before {
-		background: black;
 	}
 }
