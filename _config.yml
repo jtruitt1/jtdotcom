@@ -14,13 +14,13 @@ sass:
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 3
 
 navigation:
-    - title: Home
-      url: /index.html
     - title: About
       url: /about
+    - title: Blog
+      url: /blog
 
 social:
     github: jtruitt1
