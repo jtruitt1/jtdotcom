@@ -46,7 +46,7 @@
 	align-items: flex-end;
 	flex-wrap: wrap-reverse;
 
-	* {
+	p,img {
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 		@media screen and (min-width: 800px) {
