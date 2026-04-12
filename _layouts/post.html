@@ -16,6 +16,13 @@ layout: default
 
   <!-- POST NAVIGATION -->
   <footer class="postNav clearfix">
+    {%- if page.tags -%}
+      {% for tag in page.tags %}
+          <a href="{{site.baseurl}}/tags.html#{{tag | slugize}}">
+              #{{ tag }}
+          </a>
+      {% endfor %}
+    {%- endif -%}
     {%- if page.previous.url -%}
       <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | relative_url }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
       {%- if page.previous.image -%}
