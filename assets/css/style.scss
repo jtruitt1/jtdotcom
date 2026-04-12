@@ -38,7 +38,9 @@
 	color-scheme: light dark;
 }
 
-// JT custom styles
+// JT CUSTOM STYLES
+
+// Home page
 .bio-pic {
 	display: flex;
 	flex-direction: row;
@@ -70,5 +72,26 @@
 
 	+ h2 {
 		text-align: center;
+	}
+}
+
+// Post footer
+h2:has(+ul.tag-list) {
+	display: inline;
+	font-size: 16px;
+}
+
+.tag-list {
+	display: inline;
+	list-style: none;
+	padding-left: 0px;
+	li {
+		display: inline;
+		&:after {
+			content: ', ';
+		}
+		&:last-child:after {
+			content: ''; 
+		}
 	}
 }
