@@ -17,10 +17,14 @@ plugins: [jekyll-paginate]
 paginate: 3
 
 navigation:
-    - title: About
-      url: /about
     - title: Blog
       url: /blog
+    - title: Tech Tips
+      url: /tech
+    - title: Other writing
+      url: /other-writing
+    - title: About this site
+      url: /about
 
 social:
     github: jtruitt1
