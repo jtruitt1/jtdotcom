@@ -31,6 +31,9 @@
 @media only screen and (min-width: 1200px) {
 	@import "breakpoints/1200up";
 }
+@media print {
+	@import "breakpoints/800up"; 
+}
 
 // If IE support is needed you can add them here or create another stylesheet for specific IE fixes
 
@@ -94,4 +97,27 @@ h2:has(+ul.tag-list) {
 			content: ''; 
 		}
 	}
+}
+
+// Citations
+h2#references.chicago + ul {
+	list-style: none;
+	li {
+		margin-left: 3em;
+		text-indent: -3em;
+	}
+}
+
+// Other
+aside {
+	background-color: $primary-color;
+	color: white;
+	padding: 1rem;
+	h2 {
+		margin: 0rem 0rem 0.5rem;
+	}
+}
+blockquote {
+	border-left: 2px solid light-dark(black, white);
+	padding-left: 1rem;
 }
