@@ -2,6 +2,10 @@
 layout: default
 title: Other writing
 ---
+
+{::options parse_block_html="true" /}
+<div class="post">
+
 # Other Writing
 This page links to writing I've done outside of this site's blog posts and tech tips,
 either on this site or off of it.
@@ -19,3 +23,5 @@ My MLIS program (San José State University) requires that students complete a c
 Here are two of the introductory essays I am happiest with:
 - [A. Ethics & Values](eport-A)
 - [F. Selection, Arrangement, and Preservation](eport-F)
+
+</div>

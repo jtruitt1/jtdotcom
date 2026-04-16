@@ -109,12 +109,19 @@ h2#references.chicago + ul {
 }
 
 // Other
-aside {
+aside, .post aside {
 	background-color: $primary-color;
 	color: white;
-	padding: 1rem;
-	h2 {
+	padding: 1.5rem;
+	h2, p {
 		margin: 0rem 0rem 0.5rem;
+		width: 100%;
+		text-align: justify;
+		hyphens: auto;
+	}
+
+	& p:last-child {
+		margin-bottom: 0px;
 	}
 }
 blockquote {

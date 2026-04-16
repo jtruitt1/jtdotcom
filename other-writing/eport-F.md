@@ -4,6 +4,8 @@ title: Masters Portfolio §F - Selection, Organization, & Preservation
 date: 2025-09-01~
 ---
 
+{::options parse_block_html="true" /}
+<div class="post">
 <aside>
 <h2>Context</h2>
 This text represents one of the 14 essays I wrote for the capstone of my master's degree in late 2025. The prompt was to demonstrate my competence in "the basic concepts and principles related to the selection, evaluation, organization, and preservation of physical and digital information items."
@@ -11,7 +13,7 @@ This text represents one of the 14 essays I wrote for the capstone of my master'
 
 # Masters Portfolio §F: <br/>Selection, Organization, & Preservation
 
-<span class="dropcap" style="color: #2e8b57">M</span>anagement and preservation of information items for current and future users represents the core of our work as archivists. By selecting an appropriate sliver of materials to steward, arranging and describing them to efficiently provide access through archival methods, and preserving them for the future, we fulfill our professional mission of providing access to the historical record while working within our limited resources.
+<span class="dropcap">M</span>anagement and preservation of information items for current and future users represents the core of our work as archivists. By selecting an appropriate sliver of materials to steward, arranging and describing them to efficiently provide access through archival methods, and preserving them for the future, we fulfill our professional mission of providing access to the historical record while working within our limited resources.
 
 ## Selection and Appraisal
 
@@ -128,3 +130,5 @@ I should acknowledge that there are several much-discussed models and frameworks
 - {: #wiedemanKeepItSimple2026} Wiedeman, Gregory. “Keep It Simple: A Conversation with Greg Wiedeman.” _bloggERS! The Blog of the SAA Electronic Records Section_, January 21, 2026. [https://saaers.wordpress.com/2026/01/21/keep-it-simple-a-conversation-with-greg-wiedeman/](https://saaers.wordpress.com/2026/01/21/keep-it-simple-a-conversation-with-greg-wiedeman/).
 - {: #wiedemanHistoricalHazardsFinding2019} Wiedeman, Gregory. “The Historical Hazards of Finding Aids.” _The American Archivist_ 82, no. 2 (2019): 381–420. [https://doi.org/10.17723/aarc-82-02-20](https://doi.org/10.17723/aarc-82-02-20).
 - {: #willerMonitoringTemperatureRelative2022} Willer, Ann Marie. _Monitoring Temperature and Relative Humidity_. 2.2. Northeast Document Conservation Center, 2022. [https://www.nedcc.org/assets/media/documents/Preservation%20Leaflets/2\_2\_TempRH\_2022\_Print.pdf](https://www.nedcc.org/assets/media/documents/Preservation%20Leaflets/2_2_TempRH_2022_Print.pdf).
+
+</div>

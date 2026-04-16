@@ -4,6 +4,8 @@ title: Masters Portfolio §A - Ethics
 date: 2025-09-01~
 ---
 
+{::options parse_block_html="true" /}
+<div class="post">
 <aside>
 <h2>Context</h2>
 This text represents one of the 14 essays I wrote for the capstone of my master's degree in late 2025. The prompt was to demonstrate my competence in "the ethics, values, and foundational principles of one of the information professions."
@@ -11,7 +13,7 @@ This text represents one of the 14 essays I wrote for the capstone of my master'
 
 # Masters Portfolio §A: Ethics
 
-<span class="dropcap" style="color: #2e8b57">A</span>s an archivist, I strive to practice my craft in line with the principles and ethical code promulgated by the Society of American Archivists (SAA). These principles and tenants are numerous; SAA lists 11 principles and seven ethical points. They embrace concepts as varied as preservation of the records that embody historical memory, service to the people who want to consult those records, and diversity of both the profession and the historical record it tends.[^1] These principles often come into tension, reflecting the complexities of archival work: access and use versus security and preservation, privacy and trust versus accountability, et cetera. However, I believe that the principle of responsible stewardship unites them all, standing as a primary and capacious value for archivists. It reflects the importance of an ethics of care—care for the records we hold, for the people who gave them to us, for the people who want to use them, and for the people whose lives were touched by the actions and events they document. 
+<span class="dropcap">A</span>s an archivist, I strive to practice my craft in line with the principles and ethical code promulgated by the Society of American Archivists (SAA). These principles and tenants are numerous; SAA lists 11 principles and seven ethical points. They embrace concepts as varied as preservation of the records that embody historical memory, service to the people who want to consult those records, and diversity of both the profession and the historical record it tends.[^1] These principles often come into tension, reflecting the complexities of archival work: access and use versus security and preservation, privacy and trust versus accountability, et cetera. However, I believe that the principle of responsible stewardship unites them all, standing as a primary and capacious value for archivists. It reflects the importance of an ethics of care—care for the records we hold, for the people who gave them to us, for the people who want to use them, and for the people whose lives were touched by the actions and events they document. 
 
 ## **Preservation for access to the historical record**
 
@@ -101,3 +103,5 @@ Responsible stewardship also means tempering our zeal for preservation with an u
 - Weber, Chela, Martha Conway, Nicholas Martin, Gioia Stevens, and Brigette Kamsler. *Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections*. OCLC Research, 2021\. [https://doi.org/10.25333/ZBH0-A044](https://doi.org/10.25333/ZBH0-A044).
 - Wiedeman, Gregory. “Designing Digital Discovery and Access Systems for Archival Description.” *The Code4Lib Journal*, no. 55 (January 2023). [https://journal.code4lib.org/articles/16963](https://journal.code4lib.org/articles/16963).
 - Wiedeman, Gregory. “The Historical Hazards of Finding Aids.” *The American Archivist* 82, no. 2 (2019): 381–420. [https://doi.org/10.17723/aarc-82-02-20](https://doi.org/10.17723/aarc-82-02-20).
+
+</div>
