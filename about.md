@@ -3,21 +3,14 @@ layout: default
 title: About this site
 ---
 
+{::options parse_block_html="true" /}
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/header.jpg' | relative_url }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+
+# About This Site
+{:.pageTitle}
+
+I built this website (though not from scratch), and am maintaining and hosting it myself on a small computer. 
+
+The site is built with [Jekyll](http://jekyllrb.com), a static site generator that turns [Markdown](http://jekyllrb.com) files and HTML templates into a full website. 
+
+It is also built on the framework of [Long Haul](https://github.com/brianmaierjr/long-haul), a minimal, long-form [Jekyll theme](https://jekyllthemes.io/theme/long-haul) designed by Brian Maier Jr. Howeever, I've already made some changes to the Long Haul template. I plan to make more reduce the number of CSS classes and extraneous `<div>`s, in the spirit of Heydon Pickering's ["CSS Inheritance, The Cascade And Global Scope"](https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/).
