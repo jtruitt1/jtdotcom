@@ -124,7 +124,13 @@ aside, .post aside {
 		margin-bottom: 0px;
 	}
 }
-blockquote {
+blockquote, .post blockquote {
 	border-left: 2px solid light-dark(black, white);
 	padding-left: 1rem;
+	text-align: justify;
+	hyphens: auto;
+
+	p {
+		width: 90%;
+	}
 }
