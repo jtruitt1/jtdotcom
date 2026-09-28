@@ -2,7 +2,32 @@
 layout: post
 title:  "Hello world!"
 date:   2026-04-16
-tags:   about-me
+tags:   about-me regex websites
 ---
 
-Hello! Welcome to my new blog! I am excited to do this
+Hello! Welcome to my new blog! I am excited to finally have this thing up.
+
+You can read more about the site on the [About This Site](/about) page. Basically it is a Jekyll site I am building off of someone else's template and hosting on a single-board computer (shout-out to [Iffy Books](https://iffybooks.net/) for setting me up with that). I'm already moderately comfortable with HTML and (S)CSS, so the self-hosting part is the real learning component.
+
+I'm trying to do a few different things in this space. One is to get some practice self-hosting a website on a machine I own. Another is to establish a (mostly)[^1] non-platform-based web presence. A third is to just establish a web-presence period for any sort of long-form writing I want to do. And finally, the whole thing will hopefully serve to vouch for my technical competence.[^2]
+
+Some of my inspirations for this project are [Alex Chan](https://alexwlchan.net/) and [Ashley Blewer](https://ashleyblewer.com/), two digital archivists with amazing homepages. I particularly admire Alex's handcrafted approach to web-design, and aspire to one day have an aesthetic even a fraction as bold as Ashley's.
+
+If you want to know more about me, well, the highlights are on the [homepage](/), but I'll underline a few points here. 
+
+The first is that I accidentally swallowed a regular expressions manual as a teen,[^3] and it gave me what I'm told is a freakishly good ability to write regex off the top of my head. Not quite as cool as a run-in with a radioactive spider, but I'll take what I can get. The upshot is that I automatically reach for regex whenever I need to manipulate text,[^4] and it turns out that a lot of common problems in the library/archives world can be reduced to fancy find-and-replace,[^5] especially the problem of "Oh no! The only metadata is semi-regular text descriptions without proper delimiters made by someone in 1999!"
+
+The second has to do with my intellectual commitments as an archivist. I'm pretty fully aboard the [MPLP train](https://en.wikipedia.org/wiki/More_Product%2C_Less_Process), even though I do sometimes get bogged down in the weeds of interesting items. Suffice it to say that, even if my heart longs to "descend into the particulars," my head is devoted to minimal/efficient processing. I also join [Greg Wiedeman's position](https://journal.code4lib.org/articles/16963) that archives and archival methods are about working with unique materials efficiently at scale, rather than some sort of defective cataloguing. I think these methods still have a lot of utility in the digital age (and even in the face of LLMs[^7]), if slightly changed. Expect more posts on item-level versus aggregate metadata; in the meantime, you can find some discussion of this topic [under the "Grad school" section](/other-writing#writings-for-grad-school) of the "Other Writing" page.
+
+Finally, my intellectual commitments specifically as a digital archivist. I generally agree with Trevor Owens's observation that "highly technical definitions of digital preservation are complicit in silencing the past," in that the “‘over-diagram-ification’ of digital preservation” leaves "many smaller and less resource rich institutions feeling like they just can’t do digital preservation."[^6] The important thing is to deal with the immediate, pressing preservation needs (usually by copying bitstreams of fragile carriers and making backups) and move on to the next item, rather than spending years seeking a way to perfectly capture the digital object. I also think it's important to recognize and replicate the attitude of processing archivists working with 20th-c paper records. They aren't sending every crumbling document to conservation; they triage and remove items all the time. Things that are sufficiently important (e.g., a title or note written on an acidic folder) can be documented in metadata.[^8] Digital items aren't immune from appraisal, and the time and effort expended on an item should align with its research value. 
+
+Anyway, I could go on in that vein, but I think that gives the idea. I'm excited to write more here. Now, in the meantime, let's figure out how to set up SFTP on the server.
+
+[^1]: I say "mostly" because I am storing my code on GitHub. I'm interested in moving away from it eventually, but one thing at a time. 
+[^2]: I realize that the current state of the site, which isn't all that different from the template I'm starting from, doesn't fully deliver on that promise. However, that should change as I continue to make the site my own over the next few months. UPDATE: After a few days wrestling with DNS, port-forwarding, etc., I think this displays *some* technical ability.
+[^3]: It was perl-flavored.
+[^4]: I should clarify that I'm usually writing regex live against an existing set of data and watching for changes in the match count as I type each character, to make sure my assumptions about the shape of the data are valid, and then glancing over that data after performing any replacements. I see a lot of folks cautioning against the use of regex, and I think that's especially fair if it's supposed to be written into a codebase, where it will be applied to arbitrary input and needs to be read by future maintainers. But for transforming metadata with a one-time expression that I write and execute? Those downsides go away. Hmm, the length of this footnote makes me think that I ought to write a post about this.
+[^5]: My general rule of thumb is that regex will cover you for most things of mostly structured data unless you need to A\) do any incrementing or arithmetic (so it's useless for, e.g., adjusting all the timestamps in a VTT audio transcript file to compensate for a minute being cut from the beginning of the audio), B\) map things to one another (dictionary data structures are great for this, though), or C\) deal with deeply nested things, especially if that nesting depth is variable (e.g., HTML, JSON, etc). 
+[^6]: Trevor Owens, _The Theory and Craft of Digital Preservation_ (Johns Hopkins University Press, 2018), https://doi.org/10.31229/osf.io/5cpjt, pp. 7–8 (first quote), 80 (second and third quotes).
+[^7]: Though LLMs are a topic for another time.
+[^8]: If they're even replacing folders; see Mark Greene and Dennis Meissner, “More Product, Less Process: Revamping Traditional Archival Processing,” _The American Archivist_ 68, no. 2 (2005): 208–63, https://doi.org/10.17723/aarc.68.2.c741823776k65863. 
